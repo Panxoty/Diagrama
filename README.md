@@ -1,3 +1,4 @@
+```
 graph TD
     A[Inicio: Recepción de mail de usuario sobre un nuevo proyecto] --> B{¿El mail se dirige a la PMO?};
     B -- Sí --> C[La PMO selecciona un JP y le avisa mediante un mail con el ID de la petición];
@@ -53,3 +54,4 @@ graph TD
     AS --> AT[Finalmente un día el jefe de proyecto, da por finalizada la petición, dejándola en estado finalizada. Entonces avisa a la PMO y la QAO a través de un email que el proyecto terminó];
     AT --> AU[Al recibir el email de cierre de proyecto, la QAO identifica en el plan de proyecto los compromisos correspondiente a artefactos entregables y verifica que los mismos se encuentren en el directorio salida, según el documento plan de proyecto];
     AU --> AV[Fin del Proceso];
+```
