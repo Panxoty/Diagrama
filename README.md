@@ -6,7 +6,7 @@ graph TD
     C --> E[El JP selecciona al QAO para analizar y tomar una decisión sobre la petición];
     D --> E;
     E --> F{¿El JP acepta la petición?};
-    F -- Sí --> G[El JP pasa la petición a estado "Pendiente de Estimación"];
+    F -- Sí --> G[El JP pasa la petición a estado "Pendiente de Estimación];
     F -- No --> H[El JP rechaza la petición y esta queda en estado Rechazada];
     G --> I[Una vez aceptada la petición, la PMO solicita a la gente de infraestructura vía e-mail la creación del repositorio, copiando a la QAO];
     I --> J[La QAO recibe el mail con la información del repositorio (ID de Petición, Código de Proyecto, Descripción y Jefe de Proyecto)];
